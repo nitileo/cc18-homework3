@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: "Kanit", sans-serif;
+}
+.header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    border-bottom: 1px solid grey;
+    padding: 0 10%;
+}
+/* .logo{
+    margin-left: 48px;
+} */
+.logo img{
+    height: 30px;
+}
+.contact a{
+    margin: 0 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    /* margin-right: 48px; */
+}
+
+.user a{
+    text-decoration: none;
+    color: black;
+    margin-right: 16px;
+}
+
+.user img{
+    margin-top: 4px;
+    margin-right: 4px;
+    height: 24px;
+}
+
+.shopping-cart{
+    position: relative;
+}
+
+.shopping-cart p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    /* border: 1px solid; */
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 92vh;
+    background-color: whitesmoke
+}
+
+.container h1{
+    /* padding-top: 60px; */
+    padding: 0 10%;
+    background-color: whitesmoke;
+}
+.content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 0 auto;
+    background-color: whitesmoke
+}
+
+.product{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: -44px;
+    
+}
+
+.fpd{
+    width: 80%;
+    height: 40%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 1px 1px 8px lightgray;
+}
+.dlt1 a{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #4fd7b1;
+    border-radius: 50%;
+}
+
+
+.doc1{
+    height: 175px;
+    width: 175px;
+    /* border: 1px solid lime; */
+    background-color: #719cec;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding:  0 12px;
+    color: white;
+}
+
+.pic1{
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-top: 24px;
+}
+
+.pic2{
+    width: 24px;
+    height: 24px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:4px ;
+    margin-top: 24px;
+}
+.doc2{
+    height: 175px;
+    width: 175px;
+    /* border: 1px solid lime; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 0 12px;
+    border-radius: 20px;
+    background-color: #df8c5b;
+    color: white;
+    
+}
+
+.dtl1{
+    height: 175px;
+    width: 175px;
+    /* border: 1px solid rgb(77, 88, 186); */
+    padding: 12px;
+}
+
+.spd{
+    width: 80%;
+    height: 40%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 1px 1px 8px lightgray;
+}
+
+.chart{
+    display:flex;
+    align-items: center;
+}
+
+.form1 select{
+    border: none;
+    border-radius: 4px;
+}
+
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4fd7b1;
+    margin-right: 4px;
+}
+
+.circle2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(165, 186, 201, 0.574);
+    margin-right: 4px;
+}
+
+.dtl1 p:first-child{
+    font-size: 24px;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+.dtl1 p:last-child{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+select option{
+    font-family:"Kanit", sans-serif;
+    border-radius: 8px;
+}
+
+.purchase{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -44px;
+}
+
+.txt{
+    width: 80%;
+    height: 350px;
+    border: 1px solid grey;
+    border-radius: 12px;
+    position: absolute;
+    top: 56px;
+    padding: 24px 12px;
+}
+.txt h2{
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+.bth{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.bth p{
+    width: 50%;
+    margin-left: 16px;
+}
+
+.bth p:first-child{
+    color: rgb(116, 116, 116);
+}
+
+.bth p:last-child{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.coupon{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    align-items: center;
+    gap: 8px;
+
+
+}
+.coupon img{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.coupon input{
+ 
+    padding-left: 12px;
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    /* margin-left: 4px; */
+    border-color: grey;
+}
+
+.coupon button{
+    width: 144px;
+    height: 32px;
+    border-radius: 8px;
+    border: 2px solid #4fd7b1;
+    background-color: white;
+    margin-right: 16px;
+    font-weight: bold;
+}
+.coupon button a{
+    text-decoration: none;
+    color: #4fd7b1;
+    padding: 4px 32px;
+}
+
+.total{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items:center ;
+}
+
+.total p{
+    width: 50%;
+    margin-left: 16px;
+}
+
+.total h1{
+    width: 50%;
+    text-align: right;
+    margin-right: 16px;
+    color: #4fd7b1;
+    padding-right: 0;
+}
+
+.btn1{
+    margin: 0 auto;
+    width: 96%;
+    text-align: center;
+}
+
+.btn1 button{
+    width: 100%;
+    height: 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4fd7b1;
+    font-weight: bolder;
+}
+
+.btn1 button a{
+    text-decoration: none;
+    color: black;
+    padding: 4px 100px ;
+}
